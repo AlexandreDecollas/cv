@@ -4,6 +4,7 @@ import {CommonModule} from '@angular/common';
 
 @NgModule({
   declarations: [AboutSectionComponent],
+  exports: [AboutSectionComponent],
   imports: [
     CommonModule
   ]
