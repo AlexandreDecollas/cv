@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar.component';
 import {TranslateModule} from "@ngx-translate/core";
+import {RouterModule} from "@angular/router";
 
 
 
@@ -10,7 +11,8 @@ import {TranslateModule} from "@ngx-translate/core";
   declarations: [NavbarComponent],
   imports: [
     CommonModule,
-    TranslateModule
+    TranslateModule,
+    RouterModule
   ]
 })
 export class NavbarModule { }

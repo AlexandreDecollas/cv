@@ -10,4 +10,9 @@ export class AppComponent {
   constructor(private readonly _translate: TranslateService) {
     _translate.addLangs(['fr']);
     _translate.use('fr');
-  }}
+  }
+
+  public scrollTo($event: string) {
+    window.scrollTo()
+  }
+}

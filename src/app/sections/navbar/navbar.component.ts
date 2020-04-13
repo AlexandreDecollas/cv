@@ -1,4 +1,4 @@
-import {Component, HostListener, OnInit} from "@angular/core";
+import {Component, EventEmitter, HostListener, OnInit, Output} from "@angular/core";
 import {TranslateService} from "@ngx-translate/core";
 
 @Component({
@@ -10,6 +10,8 @@ export class NavbarComponent implements OnInit {
   public isScrolling: boolean = false;
 
   public currentLang: 'fr' | 'en' = 'fr';
+
+  @Output() public scrollTo: EventEmitter<string> = new EventEmitter<string>();
 
   @HostListener("window:scroll", ["$event"]) // for window scroll events
   public onScroll(_event: any): any {
@@ -26,5 +28,14 @@ export class NavbarComponent implements OnInit {
   public switchLang() {
     this.currentLang = this.currentLang === 'fr' ? 'en' : 'fr';
     this._translateService.use(this.currentLang);
+  }
+
+  public notifyScrollToJourney() {
+    this.scrollTo.emit('journey');
+  }
+
+  public scrollToJourney() {
+    const el: Element = document.querySelector("#journey");
+    el.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   }
 }
