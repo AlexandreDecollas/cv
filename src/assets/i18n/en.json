@@ -1,0 +1,150 @@
+{
+  "cv": {
+    "school": [
+      {
+        "place": "Université Bordeaux 1 english",
+        "years": "2007-2012",
+        "grade": "Master 2",
+        "content": "La spécialité du Calcul Haute Performance consiste en l'optimisation de la programmation de machines massivement parallèles, type super calculateur. Ces machines sont composées de nombreux CPU et GPU, le tout pouvant être relié en réseau. Leur programmation soulève ainsi des problématiques spécifiques en terme de performances et d'utilisation des ressources."
+      }
+    ],
+    "professionnal-journey": [
+      {
+        "job-title": "Développeur",
+        "company": "Primobox",
+        "date-start": "Décembre 2012",
+        "date-end": "Décembre 2013",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Développement de fonctionnalités sur l'application principale de cette start-up en fonction des besoins clients (en J2EE).",
+          "Mise en place d'une solution de monitoring des serveurs (Nagios)."
+        ]
+      },
+      {
+        "job-title": "Développeur",
+        "company": "Pages Jaunes, groupe Solocal",
+        "date-start": "Février 2014",
+        "date-end": "août 2015",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Automatisation de différentes tâches manuelles",
+          "Automatisation d'une partie de la chaine d'intégration des données",
+          "Développement en JAVA avec interface en SWING, avec utilisation d'API de modification de documents Excel (API POI), et utilisation de l'API pour l'utilisation du SGBD ORACLE",
+          "Macros Excel en VBA pour améliorer la rapidité du traitement"
+        ]
+      },
+      {
+        "job-title": "Développeur",
+        "company": "Orange",
+        "date-start": "Septembre 2015",
+        "date-end": "avril 2016",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Développement de différentes fonctionnalités sur le projet (environ 200 utilisateurs)",
+          "Développement en PHP et Zend2 avec utilisation du SGBD MySQL",
+          "Modifications et nouvelles fonctionnalités sur le front, en utilisant du javascript et CSS, respect de la charte graphique, créations et modifications d’appels AJAX"
+        ]
+      },
+      {
+        "job-title": "Développeur",
+        "company": "Conseil régional Aquitaine",
+        "date-start": "mai 2015",
+        "date-end": "octobre 2016",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Développement de différentes fonctionnalités et support sur le projet (environ 4000 utilisateurs)",
+          "Développement en JAVA/J2EE, utilisation de Struts1.2 legacy et utilisation du SGBD PostgreSQL",
+          "Mise en place de fonctionnalités sur le front, utilisation de javascript et CSS pour correspondre à la charte graphique."
+        ]
+      },
+      {
+        "job-title": "Développeur",
+        "company": "EDF",
+        "date-start": "novembre 2016",
+        "date-end": "mars 2017",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Conception et développement en partie d’un POC IHM",
+          "Développement en Angular2, puis en React pour le front (suite à un changement de direction technologique), et Java en spring data sur un Apache JBoss pour le back",
+          "Participation aux poker plannings, conception de User Stories, découpées en tâches pondérées.L’équipe et le client ont travaillé en agilité, avec l’aide de plusieurs SCRUM Masters. Remontées fréquentes de l’avancement auprès du client pour avoir un retour et s’adapter en fonction.",
+          "Mise en place de fonctionnalités sur le front et le back (services REST), écriture de tests unitaires pour le front (Karma). Participation à la préparation de démonstrations régulières."
+        ]
+      },
+      {
+        "job-title": "Développeur",
+        "company": "Banque Postale",
+        "date-start": "avril 2017",
+        "date-end": "novembre 2017",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Développement de différentes fonctionnalités en vu de faire évoluer le portail interne utilisé par les conseiller(ère)s en agence banquaire",
+          "Développement en FwAd, le framework propriétaire type AngularJS pour la partie front",
+          "Développement en Java avec Spring Boot et Maven pour la partie back, architecture REST",
+          "Projet avec plusieurs équipes de développement en AGILE, fonctionnel vaste à maîtriser."
+        ]
+      },
+      {
+        "job-title": "Développeur",
+        "company": "Banque Postale",
+        "date-start": "décembre 2017",
+        "date-end": "mars 2018",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Développement de plusieurs petites applications",
+          "Application from scratch avec un back basé sur Spring et un front en Angular 4, dans un contexte de gestion de mots de passe, avec OpenDJ comme serveur LDAP",
+          "Services REST avec un back basé sur Spring à partir d'une documentation, en TDD (Test Driven Development)",
+          "Développement de fonctionnalités à partir de spécifications sur le plus gros projet Angular 5 du client (secteur bancaire), avec services REST en Spring."
+        ]
+      },
+      {
+        "job-title": "Développeur",
+        "company": "Betclic Group",
+        "date-start": "avril 2018",
+        "date-end": "novembre 2019",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Développement de fonctionnalités dans l'application web Betclic avec Angular 5/6/7 jusqu'en Février",
+          "Développement en équipe depuis Février en partant \"from scratch\" d'une nouvelle marque pour le compte de Betclic, projet encore confidentiel avant sa mise en production (angular 7)",
+          "Utilisation de RxJS, avec gros point d'attention sur les fuites mémoires",
+          "Contexte SSR (Server Side Rendering)",
+          "Clean code, principes SOLID, réalisation de tests unitaires (TDD)",
+          "Code review au sein de l’équipe (dans le processus de développement et de garantie de qualité de code)",
+          "Pair Programming",
+          "Développement Agile pure: réalisation des stories préparées en collaboration avec le PO durant des sprints de 2 semaines",
+          "Contexte international (anglais parlé quotidiennement)"
+        ]
+      },
+      {
+        "job-title": "Développeur at associé",
+        "company": "Zyps",
+        "date-start": "juin 2019",
+        "date-end": "novembre 2019",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Participation à la création d'un projet en startup dans "
+        ]
+      },
+      {
+        "job-title": "Développeur",
+        "company": "Maincare Solutions",
+        "date-start": "novembre 2019",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Contexte : Maincare a racheté une entreprise la politique de l'entreprise est d'utilisation du framework développé par l'entité rachetée. Les équipes framework sont à Dijon, impossible de monter en compétence.",
+          "L'objectif de la mission est donc de comprendre le fonctionnement du framework et faire des POCs montrant ce fonctionnement pour ensuite faire monter les équipes en compétence.",
+          "Premier temps : comprendre comment fonctionne le framework. J'ai rapidement identifié un certain nombre de points de blocage qui empêchaient de mener à bien le projet en l'utilisant en l'état. Plusieurs POC visant à contourner ces points de blocages ont ensuite été réalisés avec succès. Avec l'accord de la hiérarchie, parti est prit de modifier en profondeur la manière de developper le projet, et de sortir du cadre initial du framework, tout en gardant une compatibilité avec ce dernier. Mise à niveau de l'ancien flow de dev à un flow de développement vueJS pure (full Typescript, testé unitairement avec Jest). Le back aussi est nettoyé (mise en place de JUnit).",
+          "Montée en compétence de l'équipe (au départ 2 puis à la fin 5 devs) sur le framework de base et sur la nouvelle approche (gros points d'attention : clean code (surtout le clean namming), les principes SOLID mis en avant, TDD et peer programming).",
+          "La méthodologie étant initialement orienté silo, j'ai poussé pour instauré de l'agile pure, avec sprints de deux semaines, démo à l'issue, groomings réguliers avec l'aide des PO, et rétrospectives finales.",
+          "D'autres problématiques sont entrées en ligne de compte, par exemple : mise en place d'une chaine de CI/CD complète pour le projet qui n'en avait pas, ou relancer la communication avec les équipes framework de Dijon (ce qui aura au moins partiellement été fait)."
+        ]
+      }
+    ]
+  },
+  "main-menu": {
+    "journey": "Journey",
+    "services": "Services",
+    "continuous-learning": "Continuous learning",
+    "contact": "Contact",
+    "translate-to": "Français"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "name": "Decollas",
+  "firstname": "Alexandre",
+  "birthdateYear": "1986",
+  "birthdateMonth": "10",
+  "birthdateDay": "25",
+  "cv": {
+    "school": [
+      {
+        "place": "Université Bordeaux 1",
+        "years": "2007-2012",
+        "grade": "Master 2",
+        "content": "La spécialité du Calcul Haute Performance consiste en l'optimisation de la programmation de machines massivement parallèles, type super calculateur. Ces machines sont composées de nombreux CPU et GPU, le tout pouvant être relié en réseau. Leur programmation soulève ainsi des problématiques spécifiques en terme de performances et d'utilisation des ressources."
+      }
+    ],
+    "professionnalJourney": [
+
+      {
+        "jobTitle": "Développeur",
+        "iconeUrl": "https://directory.email-verifier.io/logo.php?ndd=maincare.com",
+        "company": "Maincare Solutions",
+        "dateStart": "novembre 2019",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Contexte : Maincare a racheté une entreprise la politique de l'entreprise est d'utilisation du framework développé par l'entité rachetée. Les équipes framework sont à Dijon, impossible de monter en compétence.<br>L'objectif de la mission est donc de comprendre le fonctionnement du framework et faire des POCs montrant ce fonctionnement pour ensuite faire monter les équipes en compétence.<br>Premier temps : comprendre comment fonctionne le framework. J'ai rapidement identifié un certain nombre de points de blocage qui empêchaient de mener à bien le projet en l'utilisant en l'état. Plusieurs POC visant à contourner ces points de blocages ont ensuite été réalisés avec succès. Avec l'accord de la hiérarchie, parti est prit de modifier en profondeur la manière de developper le projet, et de sortir du cadre initial du framework, tout en gardant une compatibilité avec ce dernier. Mise à niveau de l'ancien flow de dev à un flow de développement vueJS pure (full Typescript, testé unitairement avec Jest). Le back aussi est nettoyé (mise en place de JUnit).<br>Montée en compétence de l'équipe (au départ 2 puis à la fin 5 devs) sur le framework de base et sur la nouvelle approche (gros points d'attention : clean code (surtout le clean namming), les principes SOLID mis en avant, TDD et peer programming).<br>La méthodologie étant initialement orienté silo, j'ai poussé pour instauré de l'agile pure, avec sprints de deux semaines, démo à l'issue, groomings réguliers avec l'aide des PO, et rétrospectives finales.<br>D'autres problématiques sont entrées en ligne de compte, par exemple : mise en place d'une chaine de CI/CD complète pour le projet qui n'en avait pas, ou relancer la communication avec les équipes framework de Dijon (ce qui aura au moins partiellement été fait)."
+        ]
+      },
+      {
+        "jobTitle": "Développeur et associé",
+        "iconeUrl": "/assets/img/zyps.png",
+        "company": "Zyps",
+        "dateStart": "juin 2019",
+        "dateEnd": "mars 2020",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Startup dont le principal projet, Cloak est de protéger la propriété intellectuelle sur internet."
+        ]
+      },
+      {
+        "jobTitle": "Développeur",
+        "iconeUrl": "https://pic.clubic.com/v1/images/1670797/raw",
+        "company": "Betclic Group",
+        "dateStart": "avril 2018",
+        "dateEnd": "novembre 2019",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Développement de fonctionnalités dans l'application web Betclic avec Angular 5/6/7 jusqu'en Février",
+          "Développement en équipe depuis Février en partant \"from scratch\" d'une nouvelle marque pour le compte de Betclic, projet encore confidentiel avant sa mise en production (angular 7)",
+          "Utilisation de RxJS, avec gros point d'attention sur les fuites mémoires",
+          "Contexte SSR (Server Side Rendering)",
+          "Clean code, principes SOLID, réalisation de tests unitaires (TDD)",
+          "Code review au sein de l’équipe (dans le processus de développement et de garantie de qualité de code)",
+          "Pair Programming",
+          "Développement Agile pure: réalisation des stories préparées en collaboration avec le PO durant des sprints de 2 semaines",
+          "Contexte international (anglais parlé quotidiennement)"
+        ]
+      },
+      {
+        "jobTitle": "Développeur",
+        "iconeUrl": "https://images.frandroid.com/wp-content/uploads/2011/07/icon-android-la-banque-postale-acces-compte.png",
+        "company": "Banque Postale",
+        "dateStart": "décembre 2017",
+        "dateEnd": "mars 2018",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Développement de plusieurs petites applications",
+          "Application from scratch avec un back basé sur Spring et un front en Angular 4, dans un contexte de gestion de mots de passe, avec OpenDJ comme serveur LDAP",
+          "Services REST avec un back basé sur Spring à partir d'une documentation, en TDD (Test Driven Development)",
+          "Développement de fonctionnalités à partir de spécifications sur le plus gros projet Angular 5 du client (secteur bancaire), avec services REST en Spring."
+        ]
+      },
+      {
+        "jobTitle": "Développeur",
+        "iconeUrl": "https://images.frandroid.com/wp-content/uploads/2011/07/icon-android-la-banque-postale-acces-compte.png",
+        "company": "Banque Postale",
+        "dateStart": "avril 2017",
+        "dateEnd": "novembre 2017",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Développement de différentes fonctionnalités en vu de faire évoluer le portail interne utilisé par les conseiller(ère)s en agence banquaire",
+          "Développement en FwAd, le framework propriétaire type AngularJS pour la partie front",
+          "Développement en Java avec Spring Boot et Maven pour la partie back, architecture REST",
+          "Projet avec plusieurs équipes de développement en AGILE, fonctionnel vaste à maîtriser."
+        ]
+      },
+      {
+        "jobTitle": "Développeur",
+        "iconeUrl": "https://www.edf.fr/sites/all/themes/custom/edf/images/img/logos/logo_edf_carre.png?5e84dc3b6733f",
+        "company": "EDF",
+        "dateStart": "novembre 2016",
+        "dateEnd": "mars 2017",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Conception et développement en partie d’un POC IHM",
+          "Développement en Angular2, puis en React pour le front (suite à un changement de direction technologique), et Java en spring data sur un Apache JBoss pour le back",
+          "Participation aux poker plannings, conception de User Stories, découpées en tâches pondérées.L’équipe et le client ont travaillé en agilité, avec l’aide de plusieurs SCRUM Masters. Remontées fréquentes de l’avancement auprès du client pour avoir un retour et s’adapter en fonction.",
+          "Mise en place de fonctionnalités sur le front et le back (services REST), écriture de tests unitaires pour le front (Karma). Participation à la préparation de démonstrations régulières."
+        ]
+      },
+      {
+        "jobTitle": "Développeur",
+        "iconeUrl": "https://static.data.gouv.fr/avatars/90/9343f5d50344bf9ac78a19ebde22d1.png",
+        "company": "Conseil régional Aquitaine",
+        "dateStart": "mai 2015",
+        "dateEnd": "octobre 2016",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Développement de différentes fonctionnalités et support sur le projet (environ 4000 utilisateurs)",
+          "Développement en JAVA/J2EE, utilisation de Struts1.2 legacy et utilisation du SGBD PostgreSQL",
+          "Mise en place de fonctionnalités sur le front, utilisation de javascript et CSS pour correspondre à la charte graphique."
+        ]
+      },
+      {
+        "jobTitle": "Développeur",
+        "company": "Orange",
+        "iconeUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Orange_logo.svg/1200px-Orange_logo.svg.png",
+        "dateStart": "Septembre 2015",
+        "dateEnd": "avril 2016",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Développement de différentes fonctionnalités sur le projet (environ 200 utilisateurs)",
+          "Développement en PHP et Zend2 avec utilisation du SGBD MySQL",
+          "Modifications et nouvelles fonctionnalités sur le front, en utilisant du javascript et CSS, respect de la charte graphique, créations et modifications d’appels AJAX"
+        ]
+      },
+      {
+        "jobTitle": "Développeur",
+        "iconeUrl": "https://seeklogo.com/images/P/pages-jaunes-logo-6A82D9ADA7-seeklogo.com.png",
+        "company": "Pages Jaunes, groupe Solocal",
+        "dateStart": "Février 2014",
+        "dateEnd": "août 2015",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Automatisation de différentes tâches manuelles",
+          "Automatisation d'une partie de la chaine d'intégration des données",
+          "Développement en JAVA avec interface en SWING, avec utilisation d'API de modification de documents Excel (API POI), et utilisation de l'API pour l'utilisation du SGBD ORACLE",
+          "Macros Excel en VBA pour améliorer la rapidité du traitement"
+        ]
+      },
+      {
+        "jobTitle": "Développeur",
+        "iconeUrl": "https://pbs.twimg.com/profile_images/1200429673886494721/56BBkZE-_400x400.png",
+        "company": "Primobox",
+        "dateStart": "Décembre 2012",
+        "dateEnd": "Décembre 2013",
+        "place": "Région de Bordeaux, France",
+        "content": [
+          "Développement de fonctionnalités sur l'application principale de cette start-up en fonction des besoins clients (en J2EE). <br> Mise en place d'une solution de monitoring des serveurs (Nagios)."
+        ]
+      }
+    ],
+    "moreExperiences": "Voir plus d'expériences..."
+  },
+  "mainMenu": {
+    "journey": "Parcours",
+    "services": "Services",
+    "continuousLearning": "Veille",
+    "contact": "Contact",
+    "translateTo": "English"
+  },
+  "intro": {
+    "title": "\"Business Value Driven\"",
+    "punchLine": "#Develepement #Passion #Business #TechnoEnthousiast",
+    "knowMore": "En savoir plus",
+    "content": [
+      "Je me présente, je m'appelle Alexandre Decollas, #1 ans. Après 7 ans d'expérience dans le développement logiciel, je suis passé d'une passion pour les sciences et l'IT de manière générale à une passion pour le beau code et ce qu'il apporte dans un cadre business.",
+      "J'oriente toujours mon action du point de vue business du client. En effet, quel autre intérêt que celui du dev si ce n'est d'apporter une valeur métier et in fine financière?",
+      "C'est pourquoi j'aspire à la démarche \"Software Craftman\" telle que décrite par Sandro Mancuso. Le TDD est pour moi au moins aussi important que la communication avec les différents partis d'un projet. J'ai acquis la conviction profonde que l'action du développeur en tant que conseiller, communicant et technicien est garante de la bonne avancée sur le long terme du projet.",
+      "Dans un domaine tel que celui du developpement logiciel en perpétuelle évolution, la veille joue un rôle primordiale dans la valeur ajoutée du développeur. C'est pourquoi je regarde très régulièrement des vidéos de tutoriels, conférences, des articles... Mes livres de chevet sont soit généralistes (The software craftmanship, Clean Code, Clean Architecture etc) soit plus techniques (spring in action, TDD by example etc) pour maintenir à jour mes connaissances sur les différentes approches qui peuvent exister pour un problème donné. Cela me permet le moment venu de choisir la meilleure.",
+      "Durant certaines de mes missions j'ai eu l'occasion de jouer le rôle de lead dev. Cela m'a permis de constater que j'apprécie particulièrement transmettre mes connaissances. C'est une part importante et gratifiante du métier."
+    ]
+  }
+}
