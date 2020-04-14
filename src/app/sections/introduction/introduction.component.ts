@@ -1,17 +1,10 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-introduction',
   templateUrl: './introduction.component.html',
   styleUrls: ['./introduction.component.css']
 })
-export class IntroductionComponent implements OnInit {
-
+export class IntroductionComponent {
   @Input() public alternateColor: boolean = false;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }

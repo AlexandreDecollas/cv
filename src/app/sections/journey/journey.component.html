@@ -11,6 +11,10 @@
       <a (click)="doShowMore()"
          class="btn btn-primary text-white btn-xl">{{ 'cv.moreExperiences' | translate }}</a>
     </div>
+    <div *ngIf="showMore">
+      <hr class="divider my-4">
+      <app-school-experience [experience]="journey.school[0]"></app-school-experience>
+    </div>
   </div>
 
 

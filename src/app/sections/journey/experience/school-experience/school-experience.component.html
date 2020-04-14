@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-lg-3 text-center">
+    <div class="mt-5">
+      <div class="experience-icon-container mx-auto">
+        <img alt="logo" class="mw-100" [src]="experience.iconeUrl">
+      </div>
+      <div class="h4 pt-4">{{experience.grade}}</div>
+    </div>
+  </div>
+  <div class="col-lg-9">
+    <div class="mt-5">
+      <div class="d-flex flex-row">
+        <div class="h4">{{experience.place}}</div>
+        <p class="text pl-3 pt-1">{{experience.years}}</p>
+      </div>
+      <p class="text-muted mb-0" [innerHTML]="experience.content">
+      </p>
+    </div>
+  </div>
+</div>

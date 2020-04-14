@@ -4,5 +4,6 @@ export default interface ISchoolExperience {
   place: string;
   years: string;
   grade: string;
+  iconeUrl: string;
   content: IExperienceContent;
 }

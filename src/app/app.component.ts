@@ -11,8 +11,4 @@ export class AppComponent {
     _translate.addLangs(['fr']);
     _translate.use('fr');
   }
-
-  public scrollTo($event: string) {
-    window.scrollTo()
-  }
 }

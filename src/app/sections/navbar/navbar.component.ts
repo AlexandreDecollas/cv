@@ -1,5 +1,6 @@
-import {Component, EventEmitter, HostListener, OnInit, Output} from "@angular/core";
+import {Component, EventEmitter, HostListener, Inject, OnInit, Output} from "@angular/core";
 import {TranslateService} from "@ngx-translate/core";
+import {I_SCROLL_SERVICE, IScrollService} from "../services/scroll/scroll.service.interface";
 
 @Component({
   selector: "app-navbar",
@@ -12,14 +13,17 @@ export class NavbarComponent implements OnInit {
   public currentLang: 'fr' | 'en' = 'fr';
 
   @Output() public scrollTo: EventEmitter<string> = new EventEmitter<string>();
+  public toogleMenu: boolean = false;
 
-  @HostListener("window:scroll", ["$event"]) // for window scroll events
-  public onScroll(_event: any): any {
-    this.isScrolling = window.pageYOffset > 50;
-    console.log('this.isScrolling : ', this.isScrolling);
+  constructor(
+    @Inject(I_SCROLL_SERVICE) private readonly _scrollService: IScrollService,
+    private readonly _translateService: TranslateService,
+  ) {
   }
 
-  constructor(private readonly _translateService: TranslateService) {
+  @HostListener("window:scroll", ["$event"])
+  public onScroll(_event: any): any {
+    this.isScrolling = window.pageYOffset > 300;
   }
 
   public ngOnInit(): void {
@@ -30,12 +34,16 @@ export class NavbarComponent implements OnInit {
     this._translateService.use(this.currentLang);
   }
 
-  public notifyScrollToJourney() {
-    this.scrollTo.emit('journey');
+  public scrollToJourney() {
+    this.toogleMenu = false;
+    this._scrollService.smoothScrollToAnchor("journey");
   }
 
-  public scrollToJourney() {
-    const el: Element = document.querySelector("#journey");
-    el.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  public smoothlyScrollToTop() {
+    this._scrollService.smoothScrollToTop();
+  }
+
+  public toogleMenuVisibility() {
+    this.toogleMenu = !this.toogleMenu;
   }
 }

@@ -1,20 +1,20 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, Inject, OnInit} from '@angular/core';
+import {I_SCROLL_SERVICE, IScrollService} from "../services/scroll/scroll.service.interface";
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent {
 
-  constructor() {
+  constructor(
+    @Inject(I_SCROLL_SERVICE) private readonly _scrollService: IScrollService
+  ) {
   }
 
-  public ngOnInit(): void {
-  }
-  scrollToElement($element): void {
-    console.log('>>>', $element);
-    $element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  public scrollToKnowIntroductionSection(): void {
+    this._scrollService.smoothScrollToAnchor("introduction");
   }
 
 
