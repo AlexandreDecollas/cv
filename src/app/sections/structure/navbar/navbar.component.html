@@ -22,13 +22,10 @@
           <a class="nav-link js-scroll-trigger" (click)="scrollToJourney()">{{ 'mainMenu.journey' | translate }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger">{{ 'mainMenu.services' | translate }}</a>
+          <a class="nav-link js-scroll-trigger" (click)="scrollToPetProjects()">{{ 'mainMenu.petProjects' | translate }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger">{{ 'mainMenu.continuousLearning' | translate }}</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger">{{ 'mainMenu.contact' | translate }}</a>
+          <a class="nav-link js-scroll-trigger" (click)="scrollToContact()">{{ 'mainMenu.contact' | translate }}</a>
         </li>
         <li class="nav-item" (click)="switchLang()">
           <a class="nav-link js-scroll-trigger">{{ 'mainMenu.translateTo' | translate }}</a>

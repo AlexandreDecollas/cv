@@ -21,6 +21,7 @@
         "iconeUrl": "/assets/img/logo-maincare.png",
         "company": "Maincare Solutions",
         "dateStart": "novembre 2019",
+        "dateEnd": "Avril 2020",
         "place": "Région de Bordeaux, France",
         "content": [
           "Contexte : Maincare a racheté une entreprise la politique de l'entreprise est d'utilisation du framework développé par l'entité rachetée. Les équipes framework sont à Dijon, impossible de monter en compétence.<br>L'objectif de la mission est donc de comprendre le fonctionnement du framework et faire des POCs montrant ce fonctionnement pour ensuite faire monter les équipes en compétence.<br>Premier temps : comprendre comment fonctionne le framework. J'ai rapidement identifié un certain nombre de points de blocage qui empêchaient de mener à bien le projet en l'utilisant en l'état. Plusieurs POC visant à contourner ces points de blocages ont ensuite été réalisés avec succès. Avec l'accord de la hiérarchie, parti est prit de modifier en profondeur la manière de developper le projet, et de sortir du cadre initial du framework, tout en gardant une compatibilité avec ce dernier. Mise à niveau de l'ancien flow de dev à un flow de développement vueJS pure (full Typescript, testé unitairement avec Jest). Le back aussi est nettoyé (mise en place de JUnit).<br>Montée en compétence de l'équipe (au départ 2 puis à la fin 5 devs) sur le framework de base et sur la nouvelle approche (gros points d'attention : clean code (surtout le clean namming), les principes SOLID mis en avant, TDD et peer programming).<br>La méthodologie étant initialement orienté silo, j'ai poussé pour instauré de l'agile pure, avec sprints de deux semaines, démo à l'issue, groomings réguliers avec l'aide des PO, et rétrospectives finales.<br>D'autres problématiques sont entrées en ligne de compte, par exemple : mise en place d'une chaine de CI/CD complète pour le projet qui n'en avait pas, ou relancer la communication avec les équipes framework de Dijon (ce qui aura au moins partiellement été fait)."
@@ -154,8 +155,7 @@
   },
   "mainMenu": {
     "journey": "Parcours",
-    "services": "Services",
-    "continuousLearning": "Veille",
+    "petProjects": "Pet projects",
     "contact": "Contact",
     "translateTo": "English"
   },
@@ -170,5 +170,34 @@
       "Dans un domaine tel que celui du developpement logiciel en perpétuelle évolution, la veille joue un rôle primordiale dans la valeur ajoutée du développeur. C'est pourquoi je regarde très régulièrement des vidéos de tutoriels, conférences, des articles... Mes livres de chevet sont soit généralistes (The software craftmanship, Clean Code, Clean Architecture etc) soit plus techniques (spring in action, TDD by example etc) pour maintenir à jour mes connaissances sur les différentes approches qui peuvent exister pour un problème donné. Cela me permet le moment venu de choisir la meilleure.",
       "Durant certaines de mes missions j'ai eu l'occasion de jouer le rôle de lead dev. Cela m'a permis de constater que j'apprécie particulièrement transmettre mes connaissances. C'est une part importante et gratifiante du métier."
     ]
+  },
+  "petProjects": [
+    {
+      "title": "Calculatrice en base n",
+      "description": "Calculatrice qui permet de faire des calculs en base 5 si ça vous chante (conversion en base 10 du calcul puis reconversion). (Python, en TDD)",
+      "url": "https://github.com/AlexandreDecollas/calculator_base_n"
+    },
+    {
+      "title": "Expérimentation du paradoxe de Monty Hall",
+      "url": "https://github.com/AlexandreDecollas/montyHallParadox",
+      "description": "Le résultat était très contre intuitif, j'ai voulu vérifier. (Java, en TDD)"
+    },
+    {
+      "title": "Google SearchResult Key Navigation",
+      "url": "https://github.com/AlexandreDecollas/GoogleSearchResultKeyNavigation",
+      "description": "Extension chrome permettant de naviguer dans les recherches google avec le clavier. (Typescript, en TDD)"
+    }
+  ],
+  "contact": {
+    "title": "Contact",
+    "intro": "Ça vous a plu ? Entrons en contact !",
+    "email": "alexandre.decollas.pro@gmail.com",
+    "twitter": "https://twitter.com/alex_decollas",
+    "linkedin": "https://www.linkedin.com/in/alexandre-decollas/",
+    "github": "https://github.com/AlexandreDecollas"
+  },
+  "footer": {
+    "cvLinkText": "Dépôt git du CV",
+    "cvLinkUrl":"https://github.com/AlexandreDecollas/AlexandreDecollas.github.io"
   }
 }

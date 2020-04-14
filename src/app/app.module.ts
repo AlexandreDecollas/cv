@@ -3,28 +3,28 @@ import {NgModule} from "@angular/core";
 
 import {AppRoutingModule} from "./app-routing.module";
 import {AppComponent} from "./app.component";
-import {HeaderModule} from "./sections/header/header.module";
-import {AboutSectionModule} from "./pages/welcome-page/sections/about-section/about-section.module";
-import {WelcomePageModuleModule} from "./pages/welcome-page/welcome-page.module";
+import {HeaderModule} from "./sections/structure/header/header.module";
 import {APP_BASE_HREF} from "@angular/common";
-import {NavbarModule} from "./sections/navbar/navbar.module";
-import {ContactModule} from "./sections/contact/contact.module";
+import {NavbarModule} from "./sections/structure/navbar/navbar.module";
+import {ContactModule} from "./sections/content/contact/contact.module";
 import {TranslateLoader, TranslateModule, TranslateService} from "@ngx-translate/core";
 import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
-import {IntroductionModule} from "./sections/introduction/introduction.module";
-import {JourneyModule} from "./sections/journey/journey.module";
+import {IntroductionModule} from "./sections/content/introduction/introduction.module";
+import {JourneyModule} from "./sections/content/journey/journey.module";
+import {FooterModule} from "./sections/structure/footer/footer.module";
+import {PetProjectsModule} from "./sections/content/pet-projects/pet-projects.module";
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     ContactModule,
     HeaderModule,
-    AboutSectionModule,
-    WelcomePageModuleModule,
     NavbarModule,
     IntroductionModule,
     JourneyModule,
+    PetProjectsModule,
+    FooterModule,
 
     AppRoutingModule,
     HttpClientModule,

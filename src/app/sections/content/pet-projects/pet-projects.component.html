@@ -1,0 +1,26 @@
+<div class="container text-center">
+  <h2 class="mb-4">Pet Projects</h2>
+  <div class="row justify-content-center" *ngIf="petProjects">
+    <div class="cursor-pointer col-lg-4 col-md-6 text-center" (click)="gotoCalcBaseNGithub()">
+      <div class="mt-5">
+        <i class="fas fa-4x fa-calculator  mb-4"></i>
+        <h3 class="h4 mb-2">{{petProjects[0].title}}</h3>
+        <p class="text-muted mb-0">{{petProjects[0].description}}</p>
+      </div>
+    </div>
+    <div class="cursor-pointer col-lg-4 col-md-6 text-center" (click)="gotoMontyHallGithub()">
+      <div class="mt-5">
+        <i class="fas fa-4x fa-car mb-4"></i>
+        <h3 class="h4 mb-2">{{petProjects[1].title}}</h3>
+        <p class="text-muted mb-0">{{petProjects[1].description}}</p>
+      </div>
+    </div>
+    <div class="cursor-pointer col-lg-4 col-md-6 text-center" (click)="gotoGSKNGithub()">
+      <div class="mt-5">
+        <i class="fas fa-4x fa-laptop-code  mb-4"></i>
+        <h3 class="h4 mb-2">{{petProjects[2].title}}</h3>
+        <p class="text-muted mb-0">{{petProjects[2].description}}</p>
+      </div>
+    </div>
+  </div>
+</div>

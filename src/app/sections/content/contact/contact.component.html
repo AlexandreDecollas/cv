@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-8 text-center">
+      <h2 class="mt-0">{{'contact.title' | translate}}</h2>
+      <hr class="divider my-4">
+      <p class="text-muted mb-5">{{'contact.intro' | translate}}</p>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-lg-3 ml-auto text-center mb-5">
+      <i class="fas fa-envelope fa-4x mb-3 text-muted cursor-pointer" (click)="sendMail()"></i>
+      <div>Email</div>
+    </div>
+    <div class="col-lg-3 mr-auto text-center mb-5" (click)="gotoTwitter()">
+      <i class="fab fa-twitter fa-4x mb-3 text-muted cursor-pointer"></i>
+      <div>Twitter</div>
+    </div>
+    <div class="col-lg-3 ml-auto text-center mb-5" (click)="gotoLinkedin()">
+      <i class="fab fa-linkedin-in fa-4x mb-3 text-muted cursor-pointer"></i>
+      <div>Linkedin</div>
+    </div>
+    <div class="col-lg-3 mr-auto text-center mb-5" (click)="gotoGithub()">
+      <i class="fab fa-github fa-4x mb-3 text-muted cursor-pointer"></i>
+      <div>Github</div>
+    </div>
+  </div>
+
+</div>
+

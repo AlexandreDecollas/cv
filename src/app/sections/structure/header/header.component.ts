@@ -1,5 +1,5 @@
 import {Component, Inject, OnInit} from '@angular/core';
-import {I_SCROLL_SERVICE, IScrollService} from "../services/scroll/scroll.service.interface";
+import {I_SCROLL_SERVICE, IScrollService} from "../../services/scroll/scroll.service.interface";
 
 @Component({
   selector: 'app-header',
