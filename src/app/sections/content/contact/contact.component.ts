@@ -33,16 +33,18 @@ export class ContactComponent implements OnInit {
   }
 
   public sendMail() {
-
+    window.location.href = "mailto:alexandre.decollas.pro@gmail.com";
   }
 
   public gotoLinkedin() {
     window.location.href = this.contact.linkedin;
-
   }
 
   public gotoGithub() {
     window.location.href = this.contact.github;
+  }
 
+  public getMouseOverMailLinkStyle(): string {
+    return 'mouse-over-green';
   }
 }
