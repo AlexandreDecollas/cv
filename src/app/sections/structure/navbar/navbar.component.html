@@ -1,16 +1,19 @@
 <nav
-  class="navbar navbar-expand-lg navbar-light fixed-top py-3"
+  class="navbar navbar-expand-lg navbar-light  nav-bar-position py-3 top-fixed"
+  [class.boxed]="isScrolling"
   [class.navbar-scrolled]="isScrolling"
+  [class.bg-transparent]="!toogleMenu && !isScrolling"
   id="mainNav"
 >
   <div class="container">
-    <a class="navbar-brand text-muted js-scroll-trigger navbar-name"
-       [class.navbar-name-scrolled]="isScrolling"
+    <a class="navbar-brand text-muted js-scroll-trigger navbar-name "
+       [class.hidden-on-mobile]="!isScrolling && !toogleMenu"
+       [class.navbar-name-scrolled]="!isScrolling && !toogleMenu"
        (click)="smoothlyScrollToTop()">
       {{ 'firstname' | translate }} {{ 'name' | translate }}
     </a>
     <button
-      class="navbar-toggler navbar-toggler-right"
+      class="navbar-toggler navbar-toggler-right white-on-mobile bottom-fixed-burger"
       type="button"
       (click)="toogleMenuVisibility()"
     >

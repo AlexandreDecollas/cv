@@ -7292,14 +7292,6 @@ button.bg-dark:focus {
   position: sticky !important;
 }
 
-.fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
-
 .fixed-bottom {
   position: fixed;
   right: 0;
@@ -9586,12 +9578,6 @@ hr.light {
 
 .page-section {
   padding: 8rem 0;
-}
-
-#mainNav {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
-  transition: background-color 0.2s ease;
 }
 
 #mainNav .navbar-brand {
