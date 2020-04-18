@@ -155,7 +155,7 @@
   },
   "mainMenu": {
     "journey": "Parcours",
-    "petProjects": "Pet projects",
+    "petProjects": "Projects",
     "contact": "Contact",
     "translateTo": "English"
   },
@@ -198,6 +198,6 @@
   },
   "footer": {
     "cvLinkText": "Dépôt git du CV",
-    "cvLinkUrl":"https://github.com/AlexandreDecollas/AlexandreDecollas.github.io"
+    "cvLinkUrl":"https://github.com/AlexandreDecollas/cv"
   }
 }
