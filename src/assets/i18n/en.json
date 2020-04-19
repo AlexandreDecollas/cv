@@ -1,150 +1,162 @@
 {
+  "name": "Decollas",
+  "firstname": "Alexandre",
+  "birthdateYear": "1986",
+  "birthdateMonth": "10",
+  "birthdateDay": "25",
   "cv": {
     "school": [
       {
-        "place": "Université Bordeaux 1 english",
+        "place": "Université Bordeaux 1",
+        "iconeUrl": "https://upload.wikimedia.org/wikipedia/fr/thumb/f/f2/Universit%C3%A9_Bordeaux_1_%28logo%29.svg/1200px-Universit%C3%A9_Bordeaux_1_%28logo%29.svg.png",
         "years": "2007-2012",
-        "grade": "Master 2",
-        "content": "La spécialité du Calcul Haute Performance consiste en l'optimisation de la programmation de machines massivement parallèles, type super calculateur. Ces machines sont composées de nombreux CPU et GPU, le tout pouvant être relié en réseau. Leur programmation soulève ainsi des problématiques spécifiques en terme de performances et d'utilisation des ressources."
+        "grade": "Master 2 : High Performance Calculation",
+        "content": "La spécialité du Calcul Haute Performance consiste en l'optimisation de la programmation de machines massivement parallèles, type super calculateur. Ces machines sont composées de nombreux CPU et GPU, le tout pouvant être relié en réseau. <br>Leur programmation soulève ainsi des problématiques spécifiques en terme de performances et d'utilisation des ressources."
       }
     ],
-    "professionnal-journey": [
+    "professionnalJourney": [
+
       {
-        "job-title": "Développeur",
-        "company": "Primobox",
-        "date-start": "Décembre 2012",
-        "date-end": "Décembre 2013",
-        "place": "Région de Bordeaux, France",
-        "content": [
-          "Développement de fonctionnalités sur l'application principale de cette start-up en fonction des besoins clients (en J2EE).",
-          "Mise en place d'une solution de monitoring des serveurs (Nagios)."
-        ]
-      },
-      {
-        "job-title": "Développeur",
-        "company": "Pages Jaunes, groupe Solocal",
-        "date-start": "Février 2014",
-        "date-end": "août 2015",
-        "place": "Région de Bordeaux, France",
-        "content": [
-          "Automatisation de différentes tâches manuelles",
-          "Automatisation d'une partie de la chaine d'intégration des données",
-          "Développement en JAVA avec interface en SWING, avec utilisation d'API de modification de documents Excel (API POI), et utilisation de l'API pour l'utilisation du SGBD ORACLE",
-          "Macros Excel en VBA pour améliorer la rapidité du traitement"
-        ]
-      },
-      {
-        "job-title": "Développeur",
-        "company": "Orange",
-        "date-start": "Septembre 2015",
-        "date-end": "avril 2016",
-        "place": "Région de Bordeaux, France",
-        "content": [
-          "Développement de différentes fonctionnalités sur le projet (environ 200 utilisateurs)",
-          "Développement en PHP et Zend2 avec utilisation du SGBD MySQL",
-          "Modifications et nouvelles fonctionnalités sur le front, en utilisant du javascript et CSS, respect de la charte graphique, créations et modifications d’appels AJAX"
-        ]
-      },
-      {
-        "job-title": "Développeur",
-        "company": "Conseil régional Aquitaine",
-        "date-start": "mai 2015",
-        "date-end": "octobre 2016",
-        "place": "Région de Bordeaux, France",
-        "content": [
-          "Développement de différentes fonctionnalités et support sur le projet (environ 4000 utilisateurs)",
-          "Développement en JAVA/J2EE, utilisation de Struts1.2 legacy et utilisation du SGBD PostgreSQL",
-          "Mise en place de fonctionnalités sur le front, utilisation de javascript et CSS pour correspondre à la charte graphique."
-        ]
-      },
-      {
-        "job-title": "Développeur",
-        "company": "EDF",
-        "date-start": "novembre 2016",
-        "date-end": "mars 2017",
-        "place": "Région de Bordeaux, France",
-        "content": [
-          "Conception et développement en partie d’un POC IHM",
-          "Développement en Angular2, puis en React pour le front (suite à un changement de direction technologique), et Java en spring data sur un Apache JBoss pour le back",
-          "Participation aux poker plannings, conception de User Stories, découpées en tâches pondérées.L’équipe et le client ont travaillé en agilité, avec l’aide de plusieurs SCRUM Masters. Remontées fréquentes de l’avancement auprès du client pour avoir un retour et s’adapter en fonction.",
-          "Mise en place de fonctionnalités sur le front et le back (services REST), écriture de tests unitaires pour le front (Karma). Participation à la préparation de démonstrations régulières."
-        ]
-      },
-      {
-        "job-title": "Développeur",
-        "company": "Banque Postale",
-        "date-start": "avril 2017",
-        "date-end": "novembre 2017",
-        "place": "Région de Bordeaux, France",
-        "content": [
-          "Développement de différentes fonctionnalités en vu de faire évoluer le portail interne utilisé par les conseiller(ère)s en agence banquaire",
-          "Développement en FwAd, le framework propriétaire type AngularJS pour la partie front",
-          "Développement en Java avec Spring Boot et Maven pour la partie back, architecture REST",
-          "Projet avec plusieurs équipes de développement en AGILE, fonctionnel vaste à maîtriser."
-        ]
-      },
-      {
-        "job-title": "Développeur",
-        "company": "Banque Postale",
-        "date-start": "décembre 2017",
-        "date-end": "mars 2018",
-        "place": "Région de Bordeaux, France",
-        "content": [
-          "Développement de plusieurs petites applications",
-          "Application from scratch avec un back basé sur Spring et un front en Angular 4, dans un contexte de gestion de mots de passe, avec OpenDJ comme serveur LDAP",
-          "Services REST avec un back basé sur Spring à partir d'une documentation, en TDD (Test Driven Development)",
-          "Développement de fonctionnalités à partir de spécifications sur le plus gros projet Angular 5 du client (secteur bancaire), avec services REST en Spring."
-        ]
-      },
-      {
-        "job-title": "Développeur",
-        "company": "Betclic Group",
-        "date-start": "avril 2018",
-        "date-end": "novembre 2019",
-        "place": "Région de Bordeaux, France",
-        "content": [
-          "Développement de fonctionnalités dans l'application web Betclic avec Angular 5/6/7 jusqu'en Février",
-          "Développement en équipe depuis Février en partant \"from scratch\" d'une nouvelle marque pour le compte de Betclic, projet encore confidentiel avant sa mise en production (angular 7)",
-          "Utilisation de RxJS, avec gros point d'attention sur les fuites mémoires",
-          "Contexte SSR (Server Side Rendering)",
-          "Clean code, principes SOLID, réalisation de tests unitaires (TDD)",
-          "Code review au sein de l’équipe (dans le processus de développement et de garantie de qualité de code)",
-          "Pair Programming",
-          "Développement Agile pure: réalisation des stories préparées en collaboration avec le PO durant des sprints de 2 semaines",
-          "Contexte international (anglais parlé quotidiennement)"
-        ]
-      },
-      {
-        "job-title": "Développeur at associé",
-        "company": "Zyps",
-        "date-start": "juin 2019",
-        "date-end": "novembre 2019",
-        "place": "Région de Bordeaux, France",
-        "content": [
-          "Participation à la création d'un projet en startup dans "
-        ]
-      },
-      {
-        "job-title": "Développeur",
+        "jobTitle": "Développeur",
+        "iconeUrl": "/assets/img/logo-maincare.png",
         "company": "Maincare Solutions",
-        "date-start": "novembre 2019",
+        "dateStart": "novembre 2019",
+        "dateEnd": "Avril 2020",
         "place": "Région de Bordeaux, France",
-        "content": [
-          "Contexte : Maincare a racheté une entreprise la politique de l'entreprise est d'utilisation du framework développé par l'entité rachetée. Les équipes framework sont à Dijon, impossible de monter en compétence.",
-          "L'objectif de la mission est donc de comprendre le fonctionnement du framework et faire des POCs montrant ce fonctionnement pour ensuite faire monter les équipes en compétence.",
-          "Premier temps : comprendre comment fonctionne le framework. J'ai rapidement identifié un certain nombre de points de blocage qui empêchaient de mener à bien le projet en l'utilisant en l'état. Plusieurs POC visant à contourner ces points de blocages ont ensuite été réalisés avec succès. Avec l'accord de la hiérarchie, parti est prit de modifier en profondeur la manière de developper le projet, et de sortir du cadre initial du framework, tout en gardant une compatibilité avec ce dernier. Mise à niveau de l'ancien flow de dev à un flow de développement vueJS pure (full Typescript, testé unitairement avec Jest). Le back aussi est nettoyé (mise en place de JUnit).",
-          "Montée en compétence de l'équipe (au départ 2 puis à la fin 5 devs) sur le framework de base et sur la nouvelle approche (gros points d'attention : clean code (surtout le clean namming), les principes SOLID mis en avant, TDD et peer programming).",
-          "La méthodologie étant initialement orienté silo, j'ai poussé pour instauré de l'agile pure, avec sprints de deux semaines, démo à l'issue, groomings réguliers avec l'aide des PO, et rétrospectives finales.",
-          "D'autres problématiques sont entrées en ligne de compte, par exemple : mise en place d'une chaine de CI/CD complète pour le projet qui n'en avait pas, ou relancer la communication avec les équipes framework de Dijon (ce qui aura au moins partiellement été fait)."
-        ]
+        "content":
+          "<h6>Contexte :</h6>\nMaincare a récemment racheté l'entreprise IdeoIn, qui a développé qon propre framework maison. La volonté de la direction technique de Maincare est d'utiliser ce framework. Les équipes référentes sont à Dijon et il était au moment du début de la mission laborieux et lent de monter en compétence.<br>\nL'objectif de la mission est donc de comprendre le fonctionnement du framework et faire des POCs (Proof Of Concept) montrant des exemples d'utilisation pour ensuite faire monter les équipes en compétence.<br>\n\nCette mission a donc comporté plusieurs volets :<br>\n<ul>\n    <li>\n        <h6>Aspect technique :</h6>\n        <ul>\n            <li>\n                Identification d'un certain nombre de points de blocage liés à ce framework qui empêchaient ou rendaient\n                très incertain de mener à bien le projet en l'utilisant en l'état.\n            </li>\n            <li>\n                Développement de plusieurs POCs visant à contourner ces points de blocages ont ensuite été réalisés avec\n                succès. Avec l'accord de la hiérarchie, parti est prit de modifier en profondeur la manière de\n                développer le projet et de sortir du cadre initial du framework, tout en gardant une compatibilité avec\n                ce dernier.\n            </li>\n            <li>\n                Mise à niveau du flow de développement historique : Le nouveau flow de développement est en vueJS pure\n                (full Typescript, testé unitairement avec Jest). Le back aussi est nettoyé (mise en place de JUnit, gros\n                découplage entre la partie front, sa librairie de composants, et le back).\n            </li>\n        </ul>\n    </li>\n    <li>\n        <h6>Aspect lead :</h6>Monter compétence de l'équipe (au départ 2 puis à la fin 5 devs) sur le framework de base et sur\n        la nouvelle approche (gros points d'attention sur le clean code (surtout le clean namming), les principes SOLID,\n        le TDD et peer programming).\n    </li>\n    <li>\n        <h6>Aspect transverse :</h6>\n        <ul>\n            <li>\n                Mise en place d'une chaine de CI/CD complète pour le projet qui n'en avait pas.\n            </li>\n            <li>\n                Relancer avec l'aide de la hiérarchie la communication avec les équipes framework de Dijon (ce qui aura\n                au\n                moins partiellement fonctionné).\n            </li>\n        </ul>\n    </li>\n</ul>\n\n"
+
+      },
+      {
+        "jobTitle": "Développeur et associé",
+        "iconeUrl": "/assets/img/zyps.png",
+        "company": "Zyps",
+        "dateStart": "juin 2019",
+        "dateEnd": "mars 2020",
+        "place": "Région de Bordeaux, France",
+        "content":
+          "<h6>Startup</h6> en side project, le but du projet est de protéger la propriété intellectuelle sur internet. <br>\nParticipation au développement du front du MVP."
+      },
+      {
+        "jobTitle": "Développeur",
+        "iconeUrl": "/assets/img/logo-betclic.png",
+        "company": "Betclic Group",
+        "dateStart": "avril 2018",
+        "dateEnd": "novembre 2019",
+        "place": "Région de Bordeaux, France",
+        "content": "<h6>Mission en deux parties :</h6>\n<ul>\n    <li>\n        Au sein de l'expert team, développement de fonctionnalités \"Core\" pour Betclic et participation à la sortie de nouvelles régulations (Angular 5/6/7, Karma). Contexte internationnal (anglais parlé et écrit quotidiennement)\n    </li>\n    <li>\n        À partir de Février, démarrage d'une nouvelle marque de casino. Développement en binôme de la partie Front from scratch (en angular 7)\n    </li>\n</ul>\n<h6>\n    Points techniques importants :\n</h6>\n<ul>\n    <li>\n        Utilisation de RxJS, avec gros point d'attention sur les fuites mémoires\n    </li>\n    <li>\n        Clean code, principes SOLID, réalisation de tests unitaires (TDD) sont très largement utilisés\n    </li>\n    <li>\n        Pair Programming largement pratiqué\n    </li>\n    <li>\n        Développement Agile pure: réalisation des stories préparées en collaboration avec le PO durant des sprints de 2 semaines\n    </li>\n</ul>\n"
+      },
+      {
+        "jobTitle": "Développeur",
+        "iconeUrl": "/assets/img/logo-lbp.png",
+        "company": "Banque Postale",
+        "dateStart": "décembre 2017",
+        "dateEnd": "mars 2018",
+        "place": "Région de Bordeaux, France",
+        "content": "Création d'une application de gestion/renouvellement de mot de passe, utilisée aujourd'hui par les internes, back et front.\n<ul>\n    <li>\n        Développement des services REST à partir de la documentation , en spring (OpenDJ pour le LDAP) et en TDD.\n    </li>\n    <li>\n        Angular 4 coté front\n    </li>\n</ul>\nParticipation en tant que lead dev à la refonte du portail applicatif des agents en banque.\n<ul>\n    <li>\n        Le front était en angular 5\n    </li>\n    <li>\n        Le back était en spring\n    </li>\n    <li>\n        Contexte de développement : l'équipe était à Paris, avec des profils juniors à faire monter en compétence sur les bonnes pratiques de développement.\n    </li>\n</ul>\n"
+      },
+      {
+        "jobTitle": "Développeur",
+        "iconeUrl": "/assets/img/logo-lbp.png",
+        "company": "Banque Postale",
+        "dateStart": "avril 2017",
+        "dateEnd": "novembre 2017",
+        "place": "Région de Bordeaux, France",
+        "content": "Participation au développement du portail applicatif interne utilisé par les conseiller(ère)s en agence bancaire.\n<ul>\n    <li>\n        La partie front de ce projet est écrite en FwAD, un framework maison qui reprend les concepts de AngularJS\n    </li>\n    <li>\n        Partie Back : développement de services REST écrits en java, avec Spring Boot, Maven.\n    </li>\n    <li>\n        Vaste fonctionnel à maitriser, développement Semi Agile dans un contexte multi équipes\n    </li>\n</ul>\n"
+      },
+      {
+        "jobTitle": "Développeur",
+        "iconeUrl": "/assets/img/logo-edf.png",
+        "company": "EDF",
+        "dateStart": "novembre 2016",
+        "dateEnd": "mars 2017",
+        "place": "Région de Bordeaux, France",
+        "content": "Conception et développement d'un POC IHM pour EDF qui souhaitait se séparer de ses applets java vieillissants pour les remplacer par un nouveau système plus performant.\n<ul>\n    <li>\n        Développement en Angular2, puis en React pour le front (suite à un changement de direction technologique), écriture de tests unitaires (Karma)\n    </li>\n    <li>\n        Mise en place de fonctionnalités sur back (services REST).\n    </li>\n    <li>\n        Java en spring data sur un Apache JBoss pour le back\n    </li>\n    <li>\n        Le but du POC était aussi pour EDF l'occasion de tester l'Agilité pure. Développement avec poker planning, sprints de 2 semaines, démonstrations à l'issue de chaque sprint, et assistance de 3 coach Agiles (un chez thales, un chez EDF, et un autre pour faire le lien).\n    </li>\n</ul>\n"
+      },
+      {
+        "jobTitle": "Développeur",
+        "iconeUrl": "/assets/img/logo-CRA.png",
+        "company": "Conseil régional Aquitaine",
+        "dateStart": "mai 2015",
+        "dateEnd": "octobre 2016",
+        "place": "Région de Bordeaux, France",
+        "content": "Développement de fonctionnalités sur la refonte de portail du Conseil Régional Aquitaine (utilisé par 4000 utilisateurs).\n<ul>\n    <li>\n        Important aspect legacy, Java/J2EE. Framework : Struts 1.2, Postgresql.\n    </li>\n    <li>\n        développement de fonctionnalités pour le front, js/css/html pour correspondre à la charte graphique\n    </li>\n</ul>\n"
+      },
+      {
+        "jobTitle": "Développeur",
+        "company": "Orange",
+        "iconeUrl": "/assets/img/logo-orange.png",
+        "dateStart": "Septembre 2015",
+        "dateEnd": "avril 2016",
+        "place": "Région de Bordeaux, France",
+        "content": "<ul>\n    <li>\n        Développement de différentes fonctionnalités sur le projet (environ 200 utilisateurs)\n    </li>\n    <li>\n        Développement en PHP et Zend2 avec utilisation du SGBD MySQL\n    </li>\n    <li>\n        Modifications et nouvelles fonctionnalités sur le front, en utilisant du javascript et CSS, respect de la charte graphique, créations et modifications d’appels AJAX\n    </li>\n</ul>"
+      },
+      {
+        "jobTitle": "Développeur",
+        "iconeUrl": "/assets/img/logo-pj.png",
+        "company": "Pages Jaunes, groupe Solocal",
+        "dateStart": "Février 2014",
+        "dateEnd": "août 2015",
+        "place": "Région de Bordeaux, France",
+        "content": "<ul>\n    <li>\n        Automatisation de différentes tâches manuelles\n    </li>\n    <li>\n        Automatisation d'une partie de la chaine d'intégration des données\n    </li>\n    <li>\n        Développement en JAVA avec interface en SWING, avec utilisation d'API de modification de documents Excel (API POI), et utilisation de l'API pour l'utilisation du SGBD ORACLE\n    </li>\n    <li>\n        Macros Excel en VBA pour améliorer la rapidité du traitement\n    </li>\n</ul>\n"
+      },
+      {
+        "jobTitle": "Développeur",
+        "iconeUrl": "/assets/img/logo-primobox.png",
+        "company": "Primobox",
+        "dateStart": "Décembre 2012",
+        "dateEnd": "Décembre 2013",
+        "place": "Région de Bordeaux, France",
+        "content": "Ayant pour projet le développement de portail de dématérialisation RH.\n<ul>\n    <li>\n        Développement de fonctionnalités en J2EE pour les besoin du client en pseudo agilité.\n    </li>\n    <li>\n        Mise en place d'une solution de monitoring des serveurs (Nagios).\n    </li>\n</ul>\n"
       }
+    ],
+    "moreExperiences": "Voir plus d'expériences..."
+  },
+  "mainMenu": {
+    "journey": "Parcours",
+    "petProjects": "Projects",
+    "contact": "Contact",
+    "translateTo": "English"
+  },
+  "intro": {
+    "title": "\"Business Value Driven\"",
+    "punchLine": "#Develepement #Passion #Business #TechnoEnthousiast",
+    "knowMore": "En savoir plus",
+    "content": [
+      "Je me présente, je m'appelle Alexandre Decollas, #1 ans. Après 7 ans d'expérience dans le développement logiciel, je suis passé d'une passion pour les sciences et l'IT de manière générale à une passion pour le beau code et ce qu'il apporte dans un cadre business.",
+      "J'oriente toujours mon action du point de vue business du client. En effet, quel autre intérêt que celui du dev si ce n'est d'apporter une valeur métier et in fine financière?",
+      "C'est pourquoi j'aspire à la démarche \"Software Craftman\" telle que décrite par Sandro Mancuso. Le TDD est pour moi au moins aussi important que la communication avec les différents partis d'un projet. J'ai acquis la conviction profonde que l'action du développeur en tant que conseiller, communicant et technicien est garante de la bonne avancée sur le long terme du projet.",
+      "Dans un domaine tel que celui du developpement logiciel en perpétuelle évolution, la veille joue un rôle primordiale dans la valeur ajoutée du développeur. C'est pourquoi je regarde très régulièrement des vidéos de tutoriels, conférences, des articles... Mes livres de chevet sont soit généralistes (The software craftmanship, Clean Code, Clean Architecture etc) soit plus techniques (spring in action, TDD by example etc) pour maintenir à jour mes connaissances sur les différentes approches qui peuvent exister pour un problème donné. Cela me permet le moment venu de choisir la meilleure.",
+      "Durant certaines de mes missions j'ai eu l'occasion de jouer le rôle de lead dev. Cela m'a permis de constater que j'apprécie particulièrement transmettre mes connaissances. C'est une part importante et gratifiante du métier."
     ]
   },
-  "main-menu": {
-    "journey": "Journey",
-    "services": "Services",
-    "continuous-learning": "Continuous learning",
-    "contact": "Contact",
-    "translate-to": "Français"
+  "petProjects": [
+    {
+      "title": "Base n Calculator",
+      "description": "Base n calculator, allowing you to add some base 5 numbers if you want (convert in base 10 and then reconvert). (Python, in TDD)",
+      "url": "https://github.com/AlexandreDecollas/calculator_base_n"
+    },
+    {
+      "title": "Monty Hall experiment paradox",
+      "url": "https://github.com/AlexandreDecollas/montyHallParadox",
+      "description": "Result seemed very conter intuitive, I wanted to verify. (Java, in TDD)"
+    },
+    {
+      "title": "Google SearchResult Key Navigation",
+      "url": "https://github.com/AlexandreDecollas/GoogleSearchResultKeyNavigation",
+      "description": "Chrome Extension allowing you to navigate throw google result search page with arrow keys. (Typescript, in TDD)"
+    }
+  ],
+  "contact": {
+    "title": "Contact",
+    "intro": "Did you like it ? let's contact !",
+    "email": "alexandre.decollas.pro@gmail.com",
+    "twitter": "https://twitter.com/alex_decollas",
+    "linkedin": "https://www.linkedin.com/in/alexandre-decollas/",
+    "github": "https://github.com/AlexandreDecollas"
+  },
+  "footer": {
+    "cvLinkText": "CV's git repository",
+    "cvLinkUrl":"https://github.com/AlexandreDecollas/cv"
   }
 }

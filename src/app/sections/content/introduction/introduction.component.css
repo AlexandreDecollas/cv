@@ -1,0 +1,14 @@
+@media (max-width: 992px) {
+  .text-intro {
+    font-size: smaller;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
+
+@media (min-width: 992px) {
+  .text-intro {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}

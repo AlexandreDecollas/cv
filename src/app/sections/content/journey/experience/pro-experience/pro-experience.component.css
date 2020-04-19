@@ -1,3 +1,18 @@
 .experience-icon-container {
   width: 100px;
 }
+
+.text-on-bottom {
+  bottom: 0px;
+}
+
+.logo-size {
+  width: 160px;
+}
+
+@media (max-width: 992px) {
+  .text-content {
+    font-size: small;
+    /*text-align: justify;*/
+  }
+}
