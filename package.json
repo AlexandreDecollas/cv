@@ -38,6 +38,7 @@
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "12.11.1",
+    "animate.css": "^3.7.2",
     "codelyzer": "5.1.2",
     "eslint": "6.8.0",
     "eslint-config-clean-code": "^2.0.0",

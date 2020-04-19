@@ -10,6 +10,23 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+
+ul {
+  padding-left: 20px;
+  list-style-type: lower-greek;
+}
+@media (max-width: 992px) {
+.offset-xp-content-1 {
+  font-size: smaller;
+}
+}
+
+@media (max-width: 992px) {
+
+}
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
