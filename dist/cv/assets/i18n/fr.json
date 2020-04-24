@@ -114,18 +114,18 @@
   },
   "mainMenu": {
     "journey": "Parcours",
-    "petProjects": "Projects",
+    "petProjects": "Projets",
     "contact": "Contact",
     "translateTo": "English"
   },
   "intro": {
     "title": "\"Business Value Driven\"",
-    "punchLine": "#Devlepement #Passion #Business #TechnoEnthousiast",
+    "punchLine": "#Developement #Passion #Business #TechnoEnthousiast",
     "knowMore": "En savoir plus",
     "content": [
       "Je me présente, je m'appelle Alexandre Decollas, 33 ans. Après 7 ans d'expérience dans le développement logiciel, je suis passé d'une passion pour les sciences et l'IT de manière générale à une passion pour le beau code et ce qu'il apporte dans un cadre business.",
       "J'oriente toujours mon action du point de vue business du client. En effet, quel autre intérêt que celui du dev si ce n'est d'apporter une valeur métier et in fine financière?",
-      "C'est pourquoi j'aspire à la démarche \"Software Craftman\" telle que décrite par Sandro Mancuso. Le TDD est pour moi au moins aussi important que la communication avec les différents partis d'un projet. J'ai acquis la conviction profonde que l'action du développeur en tant que conseiller, communicant et technicien est garante de la bonne avancée sur le long terme du projet.",
+      "C'est pourquoi j'aspire à la démarche \"Software Craftman\" telle que décrite par Sandro Mancuso. Le TDD (Test Druven Development) est pour moi au moins aussi important que la communication avec les différents partis d'un projet. J'ai acquis la conviction profonde que l'action du développeur en tant que conseiller, communicant et technicien est garante de la bonne avancée sur le long terme du projet.",
       "Dans un domaine tel que celui du developpement logiciel en perpétuelle évolution, la veille joue un rôle primordial dans la valeur ajoutée du développeur. C'est pourquoi je regarde très régulièrement des vidéos de tutoriels, conférences, des articles... Mes livres de chevet sont soit généralistes (The software craftmanship, Clean Code, Clean Architecture etc) soit plus techniques (spring in action, TDD by example etc) pour maintenir à jour mes connaissances sur les différentes approches qui peuvent exister pour un problème donné. Cela me permet le moment venu de choisir la meilleure.",
       "Durant certaines de mes missions j'ai eu l'occasion de jouer le rôle de lead dev. Cela m'a permis de constater que j'apprécie particulièrement transmettre mes connaissances. C'est une part importante et gratifiante du métier."
     ]
