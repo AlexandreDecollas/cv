@@ -2,10 +2,12 @@ import {Component, EventEmitter, HostListener, Inject, OnInit, Output} from "@an
 import {TranslateService} from "@ngx-translate/core";
 import {I_SCROLL_SERVICE, IScrollService} from "../../services/scroll/scroll.service.interface";
 import {
+  LANGAGE_COOKIE_NAME, LANGAGE_EN, LANGAGE_FR,
   SECTION_NAME_CONTACT,
   SECTION_NAME_JOURNEY,
   SECTION_NAME_PET_PROJECTS
 } from "../../../constants/global.constants";
+import {CookieService} from "ngx-cookie-service";
 
 @Component({
   selector: "app-navbar",
@@ -15,13 +17,14 @@ import {
 export class NavbarComponent implements OnInit {
   public isScrolling: boolean = false;
 
-  public currentLang: 'fr' | 'en' = 'fr';
+  public currentLang: string;
 
   @Output() public scrollTo: EventEmitter<string> = new EventEmitter<string>();
   public toogleMenu: boolean = false;
 
   constructor(
     @Inject(I_SCROLL_SERVICE) private readonly _scrollService: IScrollService,
+    private readonly _cookieService: CookieService,
     private readonly _translateService: TranslateService,
   ) {
   }
@@ -32,11 +35,13 @@ export class NavbarComponent implements OnInit {
   }
 
   public ngOnInit(): void {
+    this.currentLang = this._cookieService.get(LANGAGE_COOKIE_NAME);
   }
 
   public switchLang() {
-    this.currentLang = this.currentLang === 'fr' ? 'en' : 'fr';
+    this.currentLang = this.currentLang === LANGAGE_FR ? LANGAGE_EN : LANGAGE_FR;
     this._translateService.use(this.currentLang);
+    this._cookieService.set(LANGAGE_COOKIE_NAME, this.currentLang);
   }
 
   public scrollToJourney() {
