@@ -1,6 +1,7 @@
-import {Component, Inject, OnInit} from '@angular/core';
+import {Component, OnDestroy, OnInit} from '@angular/core';
 import IJourney from "./domain/journey.interface";
 import {TranslateService} from "@ngx-translate/core";
+import {Subscription} from "rxjs";
 import {first} from "rxjs/operators";
 
 @Component({
@@ -8,30 +9,39 @@ import {first} from "rxjs/operators";
   templateUrl: './journey.component.html',
   styleUrls: ['./journey.component.css']
 })
-export class JourneyComponent implements OnInit {
+export class JourneyComponent implements OnInit, OnDestroy {
   public journey: IJourney = null;
   public showMore: boolean = false;
   public nbShownExperiences: number = 6;
 
+  private _onLangChangeObserver: Subscription;
+
   constructor(
     private readonly _translate: TranslateService
-  ) {}
-
-  public ngOnInit(): void {
-    this._translate
-      .get('cv')
-      .pipe(
-        first()
-      ).subscribe((all: IJourney) => {
-      this.journey = all;
-    });
+  ) {
   }
 
-  public trackByFn(index, _item) {
+  public ngOnInit(): void {
+    this._onLangChangeObserver = this._translate.onLangChange
+      .subscribe(() => {
+        this._translate
+          .get('cv')
+          .pipe(first())
+          .subscribe((completeJourney: IJourney) => {
+            this.journey = completeJourney;
+          });
+      })
+  }
+
+  public ngOnDestroy(): void {
+    this._onLangChangeObserver.unsubscribe();
+  }
+
+  public trackByFn(index, _item): number {
     return index;
   }
 
-  public doShowMore() {
+  public doShowMore(): void {
     this.showMore = true;
     this.nbShownExperiences = this.journey.professionnalJourney.length;
   }
