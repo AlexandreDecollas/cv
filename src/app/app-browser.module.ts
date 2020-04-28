@@ -14,6 +14,7 @@ import {IntroductionModule} from "./sections/content/introduction/introduction.m
 import {JourneyModule} from "./sections/content/journey/journey.module";
 import {FooterModule} from "./sections/structure/footer/footer.module";
 import {PetProjectsModule} from "./sections/content/pet-projects/pet-projects.module";
+import {DefaultLanguageBrowserModule} from "./services/default-language/default-language-browser/default-language-browser.module";
 
 @NgModule({
   declarations: [AppComponent],
@@ -28,11 +29,12 @@ import {PetProjectsModule} from "./sections/content/pet-projects/pet-projects.mo
 
     AppRoutingModule,
     HttpClientModule,
-    BrowserModule,
+    DefaultLanguageBrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
+        useFactory: HttpLoaderFactoryClientSide,
         deps: [HttpClient]
       }
     })
@@ -44,9 +46,9 @@ import {PetProjectsModule} from "./sections/content/pet-projects/pet-projects.mo
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule {
+export class AppBrowserModule {
 }
 
-export function HttpLoaderFactory(http: HttpClient) {
+export function HttpLoaderFactoryClientSide(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
 }

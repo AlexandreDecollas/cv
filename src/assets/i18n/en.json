@@ -113,7 +113,7 @@
     "moreExperiences": "See more..."
   },
   "mainMenu": {
-    "journey": "Journey",
+    "journey": "Experience",
     "petProjects": "Projects",
     "contact": "Contact",
     "translateTo": "Français"
@@ -121,7 +121,7 @@
   "intro": {
     "title": "\"Business Value Driven\"",
     "punchLine": "#Development #Passion #Business #TechnoEnthousiast",
-    "knowMore": "Knowing more",
+    "knowMore": "More informations",
     "content": [
       "Hi, I'm Alexandre Decollas, 33. After 7 years of experience in development industry, I started by passion for sciences and IT to a passion for beautiful code especially and what it brings to the business.",
       "I always aim my action in client business point of view. Actually, what point makes the dev if he doesn't bring value?",
@@ -149,14 +149,14 @@
   ],
   "contact": {
     "title": "Contact",
-    "intro": "Did you like it ? Let's get in touch !",
+    "intro": "Did you like it? Let's get in touch!",
     "email": "alexandre.decollas.pro@gmail.com",
     "twitter": "https://twitter.com/alex_decollas",
     "linkedin": "https://www.linkedin.com/in/alexandre-decollas/",
     "github": "https://github.com/AlexandreDecollas"
   },
   "footer": {
-    "cvLinkText": "CV's git Repository",
+    "cvLinkText": "Git repository of this CV",
     "cvLinkUrl":"https://github.com/AlexandreDecollas/cv"
   }
 }
