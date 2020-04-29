@@ -31,7 +31,6 @@ export function app() {
 
   // All regular routes use the Universal engine
   server.get('*', (req, res) => {
-    // console.log('req : ', req.headers.cookie);
     res.render(indexHtml, { req, providers: [{ provide: APP_BASE_HREF, useValue: req.baseUrl }] });
   });
 
@@ -39,7 +38,7 @@ export function app() {
 }
 
 function run() {
-  const port = process.env.PORT || 4000;
+  const port = process.env.PORT || 80;
 
   // Start up the Node server
   const server = app();

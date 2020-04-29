@@ -7,7 +7,7 @@ import {LANGAGE_COOKIE_NAME, LANGAGE_EN} from "../constants/global.constants";
 
 @Injectable()
 export class TranslateInterceptor implements HttpInterceptor {
-  private readonly DEFAULT_PORT = 4200;
+  private readonly DEFAULT_PORT = 80;
   private readonly PORT = process.env.PORT || this.DEFAULT_PORT;
 
   private _langInCookie: string = '';
