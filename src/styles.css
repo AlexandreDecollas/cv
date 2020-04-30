@@ -7,13 +7,22 @@
   z-index: 1030;
 }
 
-/*#mainNav {*/
-/*  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);*/
-/*  background-color: #fff;*/
-/*  transition: background-color 0.2s ease;*/
-/*}*/
+header.masthead-ssr {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/assets/img/bg-masthead-mini.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100vh;
+}
 
-header.masthead {
+.background-lg-loading {
+  background-image: url("/assets/img/bg-masthead.jpg");
+}
+
+header.masthead-csr {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/assets/img/bg-masthead.jpg");
@@ -23,7 +32,11 @@ header.masthead {
   background-size: cover;
   height: 100vh;
 }
-
+header.masthead-csr {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  height: 100vh;
+}
 
 ul {
   padding-left: 20px;

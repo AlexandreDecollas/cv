@@ -1,5 +1,6 @@
 import {Component, Inject, PLATFORM_ID} from '@angular/core';
 import {I_SCROLL_SERVICE, IScrollService} from "../../services/scroll/scroll.service.interface";
+import {isPlatformBrowser, isPlatformServer} from "@angular/common";
 
 @Component({
   selector: 'app-header',
@@ -16,5 +17,13 @@ export class HeaderComponent {
 
   public scrollToKnowIntroductionSection(): void {
     this._scrollService.smoothScrollToAnchor("introduction");
+  }
+
+  public isSsr(): boolean {
+    return isPlatformServer(this.platform);
+  }
+
+  public isCsr(): boolean {
+    return isPlatformBrowser(this.platform);
   }
 }
