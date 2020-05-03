@@ -42,22 +42,27 @@ export class NavbarComponent implements OnInit {
     this.currentLang = this.currentLang === LANGAGE_FR ? LANGAGE_EN : LANGAGE_FR;
     this._translateService.use(this.currentLang);
     this._cookieService.set(LANGAGE_COOKIE_NAME, this.currentLang);
+    this._closeMenu();
   }
 
   public scrollToJourney() {
     this._scrollToSection(SECTION_NAME_JOURNEY);
+    this._closeMenu();
   }
 
   public scrollToPetProjects() {
     this._scrollToSection(SECTION_NAME_PET_PROJECTS);
+    this._closeMenu();
   }
 
   public scrollToContact() {
     this._scrollToSection(SECTION_NAME_CONTACT);
+    this._closeMenu();
   }
 
   public smoothlyScrollToTop() {
     this._scrollService.smoothScrollToTop();
+    this._closeMenu();
   }
 
   public toogleMenuVisibility() {
@@ -67,5 +72,9 @@ export class NavbarComponent implements OnInit {
   private _scrollToSection(sectionId: string): void {
     this.toogleMenu = false;
     this._scrollService.smoothScrollToAnchor(sectionId);
+  }
+
+  private _closeMenu(): void {
+    this.toogleMenu = false;
   }
 }
