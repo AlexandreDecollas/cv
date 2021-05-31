@@ -41,7 +41,7 @@ import {DefaultLanguageBrowserModule} from "./services/default-language/default-
   ],
   exports: [TranslateModule],
   providers: [
-    {provide: APP_BASE_HREF, useValue: "/"},
+    {provide: APP_BASE_HREF, useValue: "/whoAmI"},
     TranslateService
   ],
   bootstrap: [AppComponent]
