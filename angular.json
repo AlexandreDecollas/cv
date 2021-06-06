@@ -146,6 +146,9 @@
                 }
               ]
             },
+            "local": {
+              "outputHashing": "media"
+            },
             "production": {
               "outputHashing": "media",
               "fileReplacements": [

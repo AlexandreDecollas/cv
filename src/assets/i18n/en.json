@@ -16,7 +16,26 @@
       }
     ],
     "professionnalJourney": [
-
+      {
+        "jobTitle": "Lead développeur / Scrum Master",
+        "iconeUrl": "assets/img/logo-moonda.jpg",
+        "company": "Moonda",
+        "dateStart": "Febrary 2021",
+        "dateEnd": "June 2021",
+        "place": "Bordeaux, France",
+        "content":
+        "Emergency start of mission in a first time, vital for the company to release the project for the main client.\n<ul>\n  <li>lead on some important topics</li>\n  <li>onboarding of new comers</li>\n</ul>\nOnce project is on line, design of the new topology making the team and process more efficient :\n<ul>\n<li>(real) agile process</li>\n<li>E2E tests (Cucumber/puppeteer) to assist the one QA of the team</li>\n<li>JS test framework migrated on Jest</li>\n<li>Development of new features</li>\n</ul>\nDaily collaboration with foreigners (Russians, Ukrainians), fluent english\n\nSupport for the junior and good practice transmission (TDD, unit testing basics, clean code...)"
+      },
+      {
+        "jobTitle": "Developer",
+        "iconeUrl": "assets/img/logo-dedalus.png",
+        "company": "Dedalus",
+        "dateStart": "June 2020",
+        "dateEnd": "january 2021",
+        "place": "Bordeaux, France",
+        "content":
+        "Multiple angle mission :<ul><li>After a release, period to make refacto and code quality improvement, bugfixes for the team. So I developed my knowledge on the project.</li><li>Improvement I've done in the project :<ul><li>make the team goes on Git and its workflow (previously on svn)</li><li>migrate the js unit testing framework (Karma to Jest)</li><li>modularization of the project so then it becomes easily testable</li><li>the UT coverage were null, so I built the ut base structure for each service and components</li><li>push the team to use good practice, as clean code, ut, so then refacto in the project would become faisable, making the project more flexible and its improvement more serene</li></ul></li><li>Complete refacto of a node app making pdf with puppeteer, calling the project.<ul><li>optimizing performances (parallelization)</li><li>jest for unit testing</li><li>dependency injection with InversifyJS</li><li>POC to choose the right lib to print the PDF/A pdfs (choice : PDFTron)</li></ul></ul>"
+      },
       {
         "jobTitle": "Lead Developer",
         "iconeUrl": "assets/img/logo-maincare.png",
@@ -124,7 +143,7 @@
     "punchLine": "#Development #Passion #Business #TechnoEnthousiast",
     "knowMore": "More informations",
     "content": [
-      "Hi, I'm Alexandre Decollas, 33. After 7 years of experience in development industry, I started by passion for sciences and IT to a passion for beautiful code especially and what it brings to the business.",
+      "Hi, I'm Alexandre Decollas, 34. After 9 years of experience in development industry, I started by passion for sciences and IT to a passion for beautiful code especially and what it brings to the business.",
       "I always aim my action in client business point of view. Actually, what point makes the dev if he doesn't bring value?",
       "That's why I want to reach the approach \"Software Craftman\" defined by Sandro Mancuso. Practicing TDD (Test Driven Development) is for me as important as the communication with different project characters. I've acquire the deep conviction that the developer action as an adviser, communicator and technician grants a higher chance for the project to perform a good progress.",
       "In such a domain, up-to-date knowledge is a critical point. It brings a lot of value to the developer. That's why I look regularly tutorials, conferences, articles... My bedside books are either generalists (The software craftmanship, Clean Code, Clean Architecture etc) or more technicals (spring in action, TDD by example etc). I aim to maintain my skills updated. It allows me to have the choice of the approach when I need to tackle a problem. At the right moment, I can choose the best.",

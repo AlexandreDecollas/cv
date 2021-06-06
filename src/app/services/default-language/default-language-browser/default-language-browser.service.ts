@@ -12,16 +12,9 @@ export class DefaultLanguageBrowserService implements IDefaultLanguageService {
   }
 
   public getDefaultLanguage(): string {
-    // const cookies: string[] = this.request.headers.cookie.split(';');
-    // cookies.forEach((cookie: string) => {
-    //   if (cookie.indexOf('lang=') != -1) {
-    //     const lang = cookie.substring(5, 7);
-    //     console.log('lang : ', lang);
-    //   }
-    // })
     let langageSet: string = this._cookieService.get(LANGAGE_COOKIE_NAME);
     if (langageSet !== LANGAGE_FR && langageSet !== LANGAGE_EN) {
-      langageSet = LANGAGE_FR;
+      langageSet = LANGAGE_EN;
     }
 
     return langageSet;
