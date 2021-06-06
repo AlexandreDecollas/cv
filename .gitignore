@@ -46,4 +46,4 @@ Thumbs.db
 
 # Misc
 yarn.lock
-#/dist
+/dist

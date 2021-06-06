@@ -15,6 +15,7 @@ import {JourneyModule} from "./sections/content/journey/journey.module";
 import {FooterModule} from "./sections/structure/footer/footer.module";
 import {PetProjectsModule} from "./sections/content/pet-projects/pet-projects.module";
 import {DefaultLanguageBrowserModule} from "./services/default-language/default-language-browser/default-language-browser.module";
+import {environment} from '../environments/environment';
 
 @NgModule({
   declarations: [AppComponent],
@@ -41,7 +42,7 @@ import {DefaultLanguageBrowserModule} from "./services/default-language/default-
   ],
   exports: [TranslateModule],
   providers: [
-    {provide: APP_BASE_HREF, useValue: "/whoAmI"},
+    {provide: APP_BASE_HREF, useValue: environment.baseHref},
     TranslateService
   ],
   bootstrap: [AppComponent]

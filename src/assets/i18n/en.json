@@ -19,7 +19,7 @@
 
       {
         "jobTitle": "Lead Developer",
-        "iconeUrl": "/assets/img/logo-maincare.png",
+        "iconeUrl": "assets/img/logo-maincare.png",
         "company": "Maincare Solutions",
         "dateStart": "November 2019",
         "dateEnd": "April 2020",
@@ -30,7 +30,7 @@
       },
       {
         "jobTitle": "Developer and associate",
-        "iconeUrl": "/assets/img/zyps.png",
+        "iconeUrl": "assets/img/zyps.png",
         "company": "Zyps",
         "dateStart": "June 2019",
         "dateEnd": "March 2020",
@@ -40,7 +40,7 @@
       },
       {
         "jobTitle": "Developer",
-        "iconeUrl": "/assets/img/logo-betclic.png",
+        "iconeUrl": "assets/img/logo-betclic.png",
         "company": "Betclic Group",
         "dateStart": "April 2018",
         "dateEnd": "November 2019",
@@ -49,7 +49,7 @@
       },
       {
         "jobTitle": "Lead developer",
-        "iconeUrl": "/assets/img/logo-lbp.png",
+        "iconeUrl": "assets/img/logo-lbp.png",
         "company": "Banque Postale",
         "dateStart": "December 2017",
         "dateEnd": "March 2018",
@@ -58,7 +58,7 @@
       },
       {
         "jobTitle": "Developer",
-        "iconeUrl": "/assets/img/logo-lbp.png",
+        "iconeUrl": "assets/img/logo-lbp.png",
         "company": "Banque Postale",
         "dateStart": "April 2017",
         "dateEnd": "November 2017",
@@ -67,7 +67,7 @@
       },
       {
         "jobTitle": "Developer",
-        "iconeUrl": "/assets/img/logo-edf.png",
+        "iconeUrl": "assets/img/logo-edf.png",
         "company": "EDF",
         "dateStart": "November 2016",
         "dateEnd": "March 2017",
@@ -76,7 +76,7 @@
       },
       {
         "jobTitle": "Developer",
-        "iconeUrl": "/assets/img/logo-CRA.png",
+        "iconeUrl": "assets/img/logo-CRA.png",
         "company": "Conseil régional Aquitaine (Aquitaine Regional Council)",
         "dateStart": "May 2015",
         "dateEnd": "October 2016",
@@ -86,7 +86,7 @@
       {
         "jobTitle": "Developer",
         "company": "Orange",
-        "iconeUrl": "/assets/img/logo-orange.png",
+        "iconeUrl": "assets/img/logo-orange.png",
         "dateStart": "September 2015",
         "dateEnd": "April 2016",
         "place": "Bordeaux, France",
@@ -94,7 +94,7 @@
       },
       {
         "jobTitle": "Developer",
-        "iconeUrl": "/assets/img/logo-pj.png",
+        "iconeUrl": "assets/img/logo-pj.png",
         "company": "Pages Jaunes, Solocal group",
         "dateStart": "Février 2014",
         "dateEnd": "August 2015",
@@ -103,7 +103,7 @@
       },
       {
         "jobTitle": "Developer",
-        "iconeUrl": "/assets/img/logo-primobox.png",
+        "iconeUrl": "assets/img/logo-primobox.png",
         "company": "Primobox",
         "dateStart": "December 2012",
         "dateEnd": "December 2013",

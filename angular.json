@@ -32,6 +32,14 @@
             "scripts": []
           },
           "configurations": {
+            "testing": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.testing.ts"
+                }
+              ]
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -129,6 +137,15 @@
             "tsConfig": "tsconfig.server.json"
           },
           "configurations": {
+            "testing": {
+              "outputHashing": "media",
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.testing.ts"
+                }
+              ]
+            },
             "production": {
               "outputHashing": "media",
               "fileReplacements": [
