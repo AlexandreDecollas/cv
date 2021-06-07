@@ -14,6 +14,7 @@ pipeline {
         }
         stage('deploy') {
             steps {
+                sh 'mkdir -p /data/cv/'
                 sh 'cp -r ./dist /data/cv/'
                 sh 'pm2 restart ssr-cv'
             }
