@@ -12,5 +12,11 @@ pipeline {
                 sh 'yarn build:ssr:prod'
             }
         }
+        stage('deploy') {
+            steps {
+                sh 'cp -r /dist /data/cv/'
+                sh 'pm2 restart ssr-cv'
+            }
+        }
     }
 }
