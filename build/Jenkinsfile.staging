@@ -15,6 +15,7 @@ pipeline {
         stage('deploy') {
             steps {
                 sh 'mkdir -p /data/cv/staging'
+                sh 'rm -rf /data/cv/staging/*'
                 sh 'cp -r ./dist /data/cv/staging'
             }
         }
