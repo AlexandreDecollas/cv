@@ -14,8 +14,8 @@ pipeline {
         }
         stage('deploy') {
             steps {
-                sh 'mkdir -p /data/cv/'
-                sh 'cp -r ./dist /data/cv/'
+                sh 'mkdir -p /data/cv/staging'
+                sh 'cp -r ./dist /data/cv/staging'
             }
         }
     }
