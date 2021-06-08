@@ -4,8 +4,9 @@
   "birthdateYear": "1986",
   "birthdateMonth": "10",
   "birthdateDay": "25",
-  "cv-link": "PDF cv",
+  "cv-link": "PDF version",
   "cv": {
+    "url": "/assets/cv-pdf/CV_ALEXANDRE_DECOLLAS_EN.pdf",
     "school": [
       {
         "place": "Bordeaux 1 University",
@@ -24,7 +25,7 @@
         "dateEnd": "June 2021",
         "place": "Bordeaux, France",
         "content":
-        "Emergency start of mission in a first time, vital for the company to release the project for the main client.\n<ul>\n  <li>lead on some important topics</li>\n  <li>onboarding of new comers</li>\n</ul>\nOnce project is on line, design of the new topology making the team and process more efficient :\n<ul>\n<li>(real) agile process</li>\n<li>E2E tests (Cucumber/puppeteer) to assist the one QA of the team</li>\n<li>JS test framework migrated on Jest</li>\n<li>Development of new features</li>\n</ul>\nDaily collaboration with foreigners (Russians, Ukrainians), fluent english\n\nSupport for the junior and good practice transmission (TDD, unit testing basics, clean code...)"
+        "Emergency start of mission in a first time, vital for the company to release the project for the main client.\n<ul>\n  <li>lead on some important topics</li>\n  <li>onboarding of new comers</li>\n</ul>\nOnce project is on line, dπesign of the new topology making the team and process more efficient :\n<ul>\n<li>(real) agile process</li>\n<li>E2E tests (Cucumber/puppeteer) to assist the one QA of the team</li>\n<li>JS test framework migrated on Jest</li>\n<li>Development of new features</li>\n</ul>\nDaily collaboration with foreigners (Russians, Ukrainians), fluent english\n\nSupport for the junior and good practice transmission (TDD, unit testing basics, clean code...)"
       },
       {
         "jobTitle": "Developer",
