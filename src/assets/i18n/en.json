@@ -18,6 +18,15 @@
     ],
     "professionnalJourney": [
       {
+        "jobTitle": "Backend developer",
+        "iconeUrl": "assets/img/logo-prestashop.png",
+        "company": "Prestashop",
+        "dateStart": "July 2021",
+        "dateEnd": "Today",
+        "place": "Bordeaux, France",
+        "content": ""
+      },
+      {
         "jobTitle": "Lead développeur / Scrum Master",
         "iconeUrl": "assets/img/logo-moonda.jpg",
         "company": "Moonda",
@@ -34,8 +43,7 @@
         "dateStart": "June 2020",
         "dateEnd": "january 2021",
         "place": "Bordeaux, France",
-        "content":
-        "Multiple angle mission :<ul><li>After a release, period to make refacto and code quality improvement, bugfixes for the team. So I developed my knowledge on the project.</li><li>Improvement I've done in the project :<ul><li>make the team goes on Git and its workflow (previously on svn)</li><li>migrate the js unit testing framework (Karma to Jest)</li><li>modularization of the project so then it becomes easily testable</li><li>the UT coverage were null, so I built the ut base structure for each service and components</li><li>push the team to use good practice, as clean code, ut, so then refacto in the project would become faisable, making the project more flexible and its improvement more serene</li></ul></li><li>Complete refacto of a node app making pdf with puppeteer, calling the project.<ul><li>optimizing performances (parallelization)</li><li>jest for unit testing</li><li>dependency injection with InversifyJS</li><li>POC to choose the right lib to print the PDF/A pdfs (choice : PDFTron)</li></ul></ul>"
+        "content": "Multiple angle mission :<ul><li>After a release, period to make refacto and code quality improvement, bugfixes for the team. So I developed my knowledge on the project.</li><li>Improvement I've done in the project :<ul><li>make the team goes on Git and its workflow (previously on svn)</li><li>migrate the js unit testing framework (Karma to Jest)</li><li>modularization of the project so then it becomes easily testable</li><li>the UT coverage were null, so I built the ut base structure for each service and components</li><li>push the team to use good practice, as clean code, ut, so then refacto in the project would become faisable, making the project more flexible and its improvement more serene</li></ul></li><li>Complete refacto of a node app making pdf with puppeteer, calling the project.<ul><li>optimizing performances (parallelization)</li><li>jest for unit testing</li><li>dependency injection with InversifyJS</li><li>POC to choose the right lib to print the PDF/A pdfs (choice : PDFTron)</li></ul></ul>"
       },
       {
         "jobTitle": "Lead Developer",
@@ -44,9 +52,7 @@
         "dateStart": "November 2019",
         "dateEnd": "April 2020",
         "place": "Bordeaux, France",
-        "content":
-          "Maincare has rescently bought a company named IdeoIn based in Dijon, France. This company developed its own framework. Maincare Board decided to use this framework to produce software. Framework team is in Dijon, and at the start of the mission it was very laborious to communicate with them, and so was it to learn.<br>\nThe aim of the mission was to understand this framework, develop POCs (Proof of Concepts) with it, and then bring the knowledge to the team in order to produce software.<br>\n\nThis mission has been executed throw several parts :<br>\n<ul>\n    <li>\n        Technical part :\n        <ul>\n            <li>\n                Identify some blocking points linked to the framework, preventing the team to efficiently  reach the dead lines.\n            </li>\n            <li>\n                Developing with success some POCs getting around these blocking points. With the support of the hierarchy, decision is made to modify deeply the way the framework is used in the project, however compatible with it.\n            </li>\n            <li>\n                Update historical development flow : From a big front/back coupled monolith to a new flow in pure vueJS (full typescript, unit tested with Jest). The backend were also cleaned and refactored (setup of JUnit, big decoupling with front, its components lib and the backend)            </li>\n        </ul>\n    </li>\n    <li>\n        Lead part : Helping team to learn good practices (and the beginning 2 and then 5 devs), learn how to use the historical framework and then how to develop with the new approach (big point of attention on clean code, especially clean naming, SOLID principles,\n        TDD and peer programming).\n    </li>\n    <li>\n        Miscellaneous part :\n        <ul>\n            <li>\n                Participation to CI/CD chaining.\n            </li>\n            <li>\n                Restart of the communication with Dijon teams, which has partially succeeded.\n            </li>\n        </ul>\n    </li>\n</ul>\n\n"
-
+        "content": "Maincare has rescently bought a company named IdeoIn based in Dijon, France. This company developed its own framework. Maincare Board decided to use this framework to produce software. Framework team is in Dijon, and at the start of the mission it was very laborious to communicate with them, and so was it to learn.<br>\nThe aim of the mission was to understand this framework, develop POCs (Proof of Concepts) with it, and then bring the knowledge to the team in order to produce software.<br>\n\nThis mission has been executed throw several parts :<br>\n<ul>\n    <li>\n        Technical part :\n        <ul>\n            <li>\n                Identify some blocking points linked to the framework, preventing the team to efficiently  reach the dead lines.\n            </li>\n            <li>\n                Developing with success some POCs getting around these blocking points. With the support of the hierarchy, decision is made to modify deeply the way the framework is used in the project, however compatible with it.\n            </li>\n            <li>\n                Update historical development flow : From a big front/back coupled monolith to a new flow in pure vueJS (full typescript, unit tested with Jest). The backend were also cleaned and refactored (setup of JUnit, big decoupling with front, its components lib and the backend)            </li>\n        </ul>\n    </li>\n    <li>\n        Lead part : Helping team to learn good practices (and the beginning 2 and then 5 devs), learn how to use the historical framework and then how to develop with the new approach (big point of attention on clean code, especially clean naming, SOLID principles,\n        TDD and peer programming).\n    </li>\n    <li>\n        Miscellaneous part :\n        <ul>\n            <li>\n                Participation to CI/CD chaining.\n            </li>\n            <li>\n                Restart of the communication with Dijon teams, which has partially succeeded.\n            </li>\n        </ul>\n    </li>\n</ul>\n\n"
       },
       {
         "jobTitle": "Developer and associate",
@@ -55,8 +61,7 @@
         "dateStart": "June 2019",
         "dateEnd": "March 2020",
         "place": "Bordeaux, France",
-        "content":
-          "Startup in side project, aiming to protect intellectual property on the internet. Participating to the frontend part of the MVP."
+        "content": "Startup in side project, aiming to protect intellectual property on the internet. Participating to the frontend part of the MVP."
       },
       {
         "jobTitle": "Developer",
@@ -119,7 +124,7 @@
         "dateStart": "Février 2014",
         "dateEnd": "August 2015",
         "place": "Bordeaux, France",
-      "content": "<ul>\n    <li>\n        Manually performed operations automation\n    </li>\n    <li>\n        Automation of a part of the data integration toolchain.\n    </li>\n    <li>\n        Developed in Java with SWING interface, using Excel API (Apache POI) and Oracle SGBD API\n    </li>\n    <li>\n        Excel Macros written in VBA, aiming to increase the data integration speed process.\n    </li>\n</ul>\n"
+        "content": "<ul>\n    <li>\n        Manually performed operations automation\n    </li>\n    <li>\n        Automation of a part of the data integration toolchain.\n    </li>\n    <li>\n        Developed in Java with SWING interface, using Excel API (Apache POI) and Oracle SGBD API\n    </li>\n    <li>\n        Excel Macros written in VBA, aiming to increase the data integration speed process.\n    </li>\n</ul>\n"
       },
       {
         "jobTitle": "Developer",
@@ -136,6 +141,7 @@
   "mainMenu": {
     "journey": "Experience",
     "petProjects": "Projects",
+    "blog": "Blog",
     "contact": "Contact",
     "translateTo": "Français"
   },
@@ -144,7 +150,7 @@
     "punchLine": "#Development #Passion #Business #TechnoEnthousiast",
     "knowMore": "More informations",
     "content": [
-      "Hi, I'm Alexandre Decollas, 34. After 9 years of experience in development industry, I started by passion for sciences and IT to a passion for beautiful code especially and what it brings to the business.",
+      "Hi, I'm Alexandre Decollas, 35. After 9 years of experience in development industry, I started by passion for sciences and IT to a passion for beautiful code especially and what it brings to the business.",
       "I always aim my action in client business point of view. Actually, what point makes the dev if he doesn't bring value?",
       "That's why I want to reach the approach \"Software Craftman\" defined by Sandro Mancuso. Practicing TDD (Test Driven Development) is for me as important as the communication with different project characters. I've acquire the deep conviction that the developer action as an adviser, communicator and technician grants a higher chance for the project to perform a good progress.",
       "In such a domain, up-to-date knowledge is a critical point. It brings a lot of value to the developer. That's why I look regularly tutorials, conferences, articles... My bedside books are either generalists (The software craftmanship, Clean Code, Clean Architecture etc) or more technicals (spring in action, TDD by example etc). I aim to maintain my skills updated. It allows me to have the choice of the approach when I need to tackle a problem. At the right moment, I can choose the best.",
@@ -178,6 +184,6 @@
   },
   "footer": {
     "cvLinkText": "Git repository of this CV",
-    "cvLinkUrl":"https://github.com/AlexandreDecollas/cv"
+    "cvLinkUrl": "https://github.com/AlexandreDecollas/cv"
   }
 }
