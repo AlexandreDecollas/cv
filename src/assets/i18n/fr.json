@@ -4,8 +4,9 @@
   "birthdateYear": "1986",
   "birthdateMonth": "10",
   "birthdateDay": "25",
-  "cv-link": "cv PDF",
+  "cv-link": "Version PDF",
   "cv": {
+    "url": "/assets/cv-pdf/CV_ALEXANDRE_DECOLLAS.pdf",
     "school": [
       {
         "place": "Université Bordeaux 1",
