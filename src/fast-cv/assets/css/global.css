@@ -1,6 +1,7 @@
 a {
   cursor: pointer;
 }
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -9,12 +10,24 @@ a {
   width: 120px;
 }
 
-header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 72px);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/src/assets/img/bg-masthead.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+html {
+  scroll-behavior: smooth;
+}
+
+#journey {
+  max-height: 2000px;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+  position: relative;
+}
+
+#journey::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  background: linear-gradient(transparent, rgba(255, 255, 255, 0.9));
+  pointer-events: none;
 }
