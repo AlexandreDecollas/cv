@@ -892,7 +892,7 @@
                     Contact
                 </h2>
                 <hr class="divider my-4">
-                <p class="text-muted mb-5">Did you like it? Let's get in touch!</p>
+                <p class="text-muted mb-5">You need some help for your project? Let's get in touch!</p>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -900,12 +900,6 @@
                 <a class="dark" href="mailto:alexandre.decollas.pro@gmail.com">
                     <i class="fas fa-envelope fa-4x mb-3  cursor-pointer"></i>
                     <div>Email</div>
-                </a>
-            </div>
-            <div class="col-lg-3 m-auto text-center mb-5 pt-lg-0 pt-5">
-                <a class="dark" href="https://twitter.com/alex_decollas" target="_blank">
-                    <i class="fab fa-twitter fa-4x mb-3 cursor-pointer"></i>
-                    <div>Twitter</div>
                 </a>
             </div>
             <div class="col-lg-3 m-auto text-center mb-5 pt-lg-0 pt-5">
@@ -928,7 +922,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="small text-center text-muted">
-                Copyright © 2023 - DotCode
+                Copyright © <span id="current-year"></span> - <a href="https://www.societe.com/societe/dotcode-890695422.html">Dotcode</a>
             </div>
         </div>
     </div>
@@ -956,6 +950,7 @@
     const age_in_years = Math.floor(age_in_ms / 1000 / 60 / 60 / 24 / 365);
     document.getElementById("age").innerText = age_in_years
     document.getElementById("years-xp").innerText = (new Date().getFullYear()) - 2012
+    document.getElementById("current-year").innerText = new Date().getFullYear()
 </script>
 
 </html>
